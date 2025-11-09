@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art</title>
+    <!-- Link do BootStrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Ícones do BootStrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- CSS do Art -->
+    <link rel="stylesheet" href="CSS/estilo.css">
+
+    <!-- pra não deixar a imagem irregulaaaar -->
+    <style>
+    .card-img-top {
+        height: 250px;
+        object-fit: cover;
+    }
+    </style>
+
+    <!-- PARA TER O FUNDO BLACK SLKKKK -->
+
+    <style>
+    body.dark-mode {
+    background-color: #121212;
+    color: #f1f1f1;
+    }
+
+    .dark-mode header,
+    .dark-mode nav,
+    .dark-mode footer {
+    background-color: #000;
+    color: #fff;
+    }
+
+    .dark-mode .navbar a,
+    .dark-mode .nav-link {
+    color: #ddd !important;
+    }
+
+    .dark-mode .card {
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+    border-color: #333;
+    }
+</style>
+
+
+</head>
+<body class="detalhes1">
+    <!-- Header -->
+    <div class="container-fluid">
+        <header class="row" id="header">
+            <div id="logo-container">
+                <img src="/img/art_logo.svg" alt="Art" id="logo">
+                <h1>Art</h1>
+            </div>
+            <p>Exibições de Artes Urbanas</p>
+        </header>
+        <button class="btn btn-outline-light mt-3" onclick="toggleDarkMode()">Alternar fundo escuro</button>
+        <nav id="navbar" class="container">
+            <div class="row justify-container">
+                <a href="index.html">Home</a>
+                <a href="detalhes1.html">Projetos</a>
+                <a href="#">Artistas</a>
+                <a href="#">Contatos</a>
+            </div>
+        </nav>
+        <!-- MAIN IMAGE -->
+<div class="container" id="main-image-container">
+<div class="main-image center-image">
+    <div class="main-image-info">
+        <h2>Grafite na Av. Paulista</h2>
+        <p class="secundary-color">Realizada em 14/06/2021</p>
+        <a href="#" class="btn btn-hover">Detalhes</a>
+    </div>
+    </div>
+
+</div>
+</div>
+        <main class="container my-5">
+    <div class="card mb-4">
+        <div class="card-body">
+        <h2 class="card-title">Grafite na Av. paulista </h2>
+        <p><strong>Data:</strong> 20/05/2021</p>
+        <p><strong>Localização:</strong> São Paulo - BR</p>
+        <p><strong>Autor:</strong> Artistas de rua</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+        <h2 class="card-title text-center">Grafite em SP</h2>
+        <p>Considerada a capital do grafite no Brasil, é raro andar pelas ruas de São Paulo sem se deparar com muros e empenas (laterais) de prédios coloridos com arte urbana. Porém, nem sempre foi assim: desde a época da Ditadura Militar até pouco tempo atrás, em 2011, quando foi descriminalizado, fazer grafite em SP era proibido por lei. Na ditadura, inclusive, a própria ocupação da rua era considerada um ato político. Mas isso não impediu que grafiteiros, como Alex Vallauri, um dos primeiros a pintar espaços públicos na cidade, fizessem sua arte. </p>
+        </div>
+    </div>
+
+        <div class="container my-5">
+        <div class="row text-center">
+
+            <!-- Card manto-->
+            <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <h5 class="card-title">Museu Aberto</h5>
+                <img src="https://b3577058.smushcdn.com/3577058/wp-content/uploads/2021/10/Museu_Aberto_de_Arte_Urbana_de_Sa%CC%83o_Paulo_01.jpg?lossy=1&strip=0&webp=1" class="card-img-top" alt="Museu Aberto">
+                <div class="card-body">
+                <p class="card-text"> Além de ser uma exposição democrática por ser gratuita, é também por você poder visitá-la passeando de bicicleta pela ciclovia, a pé ou até mesmo de ônibus ou carro na Avenida Cruzeiro do Sul. E sim, você pode ver os grafites nos dois sentidos do percurso, pois as obras ficam dos dois lados das pilastras. </p>
+                </div>
+            </div>
+            </div>
+
+            <!-- Card veleiro-->
+            <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <h5 class="card-title">Beco do Batman</h5>
+                <img src="https://b3577058.smushcdn.com/3577058/wp-content/uploads/2021/10/Grafite_no_Beco_do_Batman_1.jpg?lossy=1&strip=0&webp=1" class="card-img-top" alt="Beco do Batman">
+                <div class="card-body">
+                <p class="card-text">Muros do Beco do Batman, localizado no bairro da Vila Madalena.
+Além de ter se tornado um grande ponto turístico de grafite em SP, o Beco do Batman é também bastante frequentado por moradores da cidade, que, a cada vez que visitam suas vielas, podem encontrar novas pinturas.</p>
+                </div>
+            </div>
+            </div>
+
+            <!-- Card arco e flecha-->
+            <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <h5 class="card-title">Complexo Viário José Roberto Fanganiello Melhem</h5>
+                <img src="https://b3577058.smushcdn.com/3577058/wp-content/uploads/2021/10/Buraco_da_Paulista_Rui_Amaral_5877297001.jpg?lossy=1&strip=0&webp=1" class="card-img-top" alt="Complexo">
+                <div class="card-body">
+                <p class="card-text">O local ainda conta com diversas outras obras que abordam, principalmente, o imaginário popular brasileiro. Por mais que a maioria dos desenhos mudem ao longo do tempo, sempre se renovando, isso faz com que seja um espaço que vale a pena voltar, além de ser um alívio visual para quem passa por ali no dia a dia.</p>
+                </div>
+            </div>
+            </div>
+
+        <div class="card">
+        <div class="card-body">
+        <h2 class="card-title text-center">Muros e Grafites</h2>
+        <p>É em São Paulo que você pode visitar o Museu Aberto de Arte Urbana, localizado na Zona Norte: um conjunto de 66 obras de grafites sobre as 33 pilastras do trecho elevado da Linha 1 – Azul do Metrô – mais especificamente entre as estações Tietê, Santana e Carandiru. 
+
+Lá você encontra painéis feitos pelos artistas Binho Ribeiro, Mag Magrela, Crânio, Chivitz, Presto, entre outros.</p>
+        
+        </div>
+    </div>
+
+            </main>
+                </section>
+            </div>
+        </div>
+
+
+
+<!-- Footer -->
+
+<footer class="container">
+    <p class="secundary-color">Nos encontre nas redes sociais</p>
+<div class="row justify-content-center" id="social-icons-container">
+    <div class="col-1">
+        <a href="#"><i class="bi bi-facebook secundary-color"></i></a>
+    </div>
+    <div class="col-1">
+        <a href="#"><i class="bi bi-instagram secundary-color"></i></a>
+    </div>
+    <div class="col-1">
+        <a href="#"><i class="bi bi-twitter secundary-color"></i></a>
+    </div>
+</footer>
+    </div> </div>
+</body>
+</html>
